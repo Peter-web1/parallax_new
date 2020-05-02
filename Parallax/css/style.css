@@ -1,0 +1,119 @@
+ body {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    background: #4ca1af;
+    background: -webkit-linear-gradient(to right,#4ca1af, #c4e0e5);
+    background: linear-gradient(to right,#4ca1af, #c4e0e5);
+
+    /* background: #466368; */
+    /* background: radial-gradient(#648880, #dab617); */
+    /* background: linear-gradient(to left bottom, #648880, #293f50); */
+
+    /* background: rgba(98,125,77,1);
+background: -moz-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(98,125,77,1)), color-stop(100%, rgba(31,59,8,1)));
+background: -webkit-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+background: -o-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+background: -ms-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+background: linear-gradient(to right, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08', GradientType=1 );
+     */
+}
+
+h1 {
+     color: #001f3f;
+     font-size: 4rem;
+     font-weight: bold;
+     margin: 0.5em;
+     text-align: center;
+}
+
+.section {
+    display: flex;
+}
+
+p{
+    color: #333;
+    line-height: normal;
+    margin: 4em auto;
+    background: linear-gradient(to left bottom, #72c41f, #254407);
+    padding: 1em;
+    border-radius: 6px;
+
+     border: 2px solid #467813;
+} 
+
+p .fifty {
+    width: 50%;
+    margin: 10px;
+    background: #444;
+    color: #f1f1f1;
+}
+
+p img {
+    margin: 0 0 10px;
+}
+
+.image-section {
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-section img {
+    width: 110%;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    background: linear-gradient(to left bottom,sienna, #254407) ;
+    margin: 150px;
+    padding: 50px;
+}
+ol {
+    margin: 0 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: salmon;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/tick_2.png")50px 50% no-repeat, linear-gradient(#72c41f, #5c9e19);
+    border: 2px solid #467813;
+
+}
+
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
+
+.btn {
+    border-radius: 5px;
+    color: rgb(158, 16, 16);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+    
+  }
+
+  .btn-alt {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+  }
+  .btn-alt:hover {
+    background: #fff;
+    color: #648880;
+  }
